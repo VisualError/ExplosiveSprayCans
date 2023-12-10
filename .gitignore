@@ -58,6 +58,14 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+# Visual Studio Builds
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
+
 # Crashlytics generated file
 crashlytics-build.properties
 

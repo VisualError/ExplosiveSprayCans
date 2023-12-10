@@ -57,10 +57,10 @@ namespace LethalSprayCans.Patches
 					{
 						currentProbability[__instance] = 0;
 						TrySpraying(__instance);
-						HUDManager.Instance.DisplayTip("it went boom", "ohnyo", false, false);
+						//HUDManager.Instance.DisplayTip("it went boom", "ohnyo", false, false);
 						return;
 					}
-					HUDManager.Instance.DisplayTip("GO BOOM", $"Current probability chance: {currentProbability[__instance]}", false, false);
+					//HUDManager.Instance.DisplayTip("GO BOOM", $"Current probability chance: {currentProbability[__instance]}", false, false);
 				}
 			}
 			return;

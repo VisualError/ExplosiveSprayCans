@@ -11,7 +11,7 @@ namespace LethalSprayCans
     [BepInPlugin(modGUID, modName, modVersion)]
     public class LethalSprayCanBase : BaseUnityPlugin
     {
-        private const string modGUID = "LethalSprayCanGoBrr";
+        private const string modGUID = "Ryokune.ExplosiveSprayCans";
         private const string modName = "Lethal Spray Cans";
         private const string modVersion = "1.0.0";
         private readonly Harmony harmony = new Harmony(modGUID);

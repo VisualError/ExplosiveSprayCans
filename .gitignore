@@ -77,3 +77,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 LethalSprayCans/obj/Debug/netstandard2.1/LethalSprayCans.csproj.AssemblyReference.cache
 LethalSprayCans/obj/Debug/netstandard2.1/LethalSprayCans.dll
+LethalSprayCans/obj/Debug/netstandard2.1/LethalSprayCans.dll
+LethalSprayCans/obj/Debug/netstandard2.1/LethalSprayCans.csproj.AssemblyReference.cache

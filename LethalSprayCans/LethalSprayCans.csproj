@@ -23,6 +23,12 @@
       <Reference Include="BepInEx">
         <HintPath>..\..\..\..\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\core\BepInEx.dll</HintPath>
       </Reference>
+      <Reference Include="LethalLib">
+        <HintPath>..\..\..\..\Downloads\LethalLib.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.InputSystem">
+        <HintPath>D:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.InputSystem.dll</HintPath>
+      </Reference>
       <Reference Include="Unity.Netcode.Runtime">
         <HintPath>D:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.Netcode.Runtime.dll</HintPath>
       </Reference>

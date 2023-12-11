@@ -5,6 +5,7 @@ using HarmonyLib;
 using LethalSprayCans.Patches;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.InputSystem.Controls;
 
 namespace LethalSprayCans
 {
@@ -18,9 +19,11 @@ namespace LethalSprayCans
 
         internal static ConfigEntry<int> ProbabilityMin;
         internal static ConfigEntry<int> ProbabilityMax;
+        internal static ConfigEntry<int> InfiniteSpray;
+        internal static ConfigEntry<int> RefreshToggle;
+        internal static ConfigEntry<KeyControl> KeyToggle;
         public static ManualLogSource mls;
         private static LethalSprayCanBase instance;
-
         void Awake()
         {
             //AssetBundle.LoadFromMemory();

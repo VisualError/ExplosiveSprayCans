@@ -2,6 +2,8 @@
 using HarmonyLib;
 using System.Collections.Generic;
 using Unity.Netcode;
+using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace LethalSprayCans.Patches
 {
@@ -65,5 +67,19 @@ namespace LethalSprayCans.Patches
 			}
 			return;
 		}
+
+		[HarmonyPatch("LateUpdate")]
+		[HarmonyPostfix]
+		static void LateUpdatePatch(SprayPaintItem __instance, ref float ___sprayCanTank)
+        {
+            if ((Keyboard.current.kKey).wasPressedThisFrame)
+            {
+				___sprayCanTank = 1f;
+            }
+            if ((Keyboard.current.lKey).wasPressedThisFrame)
+            {
+				___sprayCanTank = Mathf.Infinity;
+            }
+        }
     }
 }
